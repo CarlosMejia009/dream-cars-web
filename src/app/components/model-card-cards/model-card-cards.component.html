@@ -1,0 +1,64 @@
+<div class="section-padding mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header">
+                    <div style="text-align: center;" class="text-wrapper text-center">
+                        <div class="fw-500 no-margin">
+                            Discover our featured modules
+                        </div>
+                        <span class="line-grey"></span>
+                        <span class="line-orange"></span>
+                        <span class="line-grey"></span>
+                        <p class="text-dark-grey">
+                            Combination of strength, speed, style, sports vehicles at your fingertips, enjoy maximum
+                            comfort while traveling in one of our vehicles
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-section-car-box">
+            <div class="row">
+                <div class="col-lg-4 col-md-6" *ngFor="let car of cardsArray">
+                    <div class="car-grid-layout-box">
+                        <div class="car-grid-layout-inner text-center">
+                            <div class="car-name">
+                                <h5>{{ car.brand }}</h5>
+                            </div>
+                            <h6 class="text-light-black text-uppercase mb-2">
+                                {{ car.name }}
+                            </h6>
+                            <p class="text-dark-grey">
+                                {{ car.desc }}
+                            </p>
+                            <span class="text-orange price-text">{{ car.price }}</span>
+                            <div class="car-grid-layout-img">
+                                <img class="img-fluid full-width" [src]="car.photo" alt="">
+                            </div>
+
+                            <div class="car-grid-layout-details">
+                                <span class="text-dark-white"> <i class="flaticon-dashboard text-orange mr-2"></i>
+                                    {{ car.km }} Km</span>
+                                <span class="text-dark-white p-relative"><i class="icon-car"></i> {{ car.model }}
+                                    Model</span>
+                            </div>
+                            <div class="car-grid-layout-location">
+                                <span class="text-dark-white"> <i class="fas fa-map-marker-alt mr-2"></i> New
+                                    York</span>
+                                <span class="text-dark-white"><i class="fas fa-cog mr-2"></i>Automatic</span>
+                            </div>
+                            <div class="card-grid-layout-button">
+                                <a class="boton" href="">GET STARTED</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+</div>

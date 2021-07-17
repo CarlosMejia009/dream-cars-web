@@ -1,0 +1,122 @@
+.section-header {
+    max-width: 550px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.fw-500 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.section-padding span {
+    display: inline-block;
+    margin: 15px 0 10px;
+}
+
+.section-padding span.line-grey {
+    background: #eee;
+    width: 50px;
+    height: 2px;
+}
+
+.section-padding span.line-orange {
+    background: #ff8500;
+    width: 50px;
+    height: 2px;
+}
+
+.text-dark-grey {
+    color: #6c6d72;
+}
+
+.right-section-car-box>.row>div {
+    border-right: 1px solid #eee;
+    margin-bottom: 50px;
+}
+
+.car-model-sec .right-section-car-box {
+    box-shadow: none;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-light-black {
+    color: #191919;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.car-grid-layout-box .car-grid-layout-inner .price-text {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.car-grid-layout-box .car-grid-layout-inner .car-grid-layout-img {
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.car-grid-layout-box .car-grid-layout-inner .car-grid-layout-details span i.flaticon-dashboard {
+    background-image: url(https://slidesigma.nyc/templatemonster/angular/carvalley/meter.9bdf661694c26eadfae3.svg);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 18px;
+    background-size: 100%;
+    display: inline-block;
+}
+
+.car-grid-layout-details, .car-grid-layout-location {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.section-header span.line-grey {
+    background: #eee;
+    width: 50px;
+    height: 2px;
+}
+
+.section-header span {
+    display: inline-block;
+    margin: 15px 0 10px;
+}
+
+.boton {
+    background: #253547;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.card-grid-layout-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.card-grid-layout-button a {
+    color: #ff8f00;
+    background: rgba(255, 143, 0, 0.1);
+}
+
+img {
+    object-fit: cover;
+    object-position: center center;
+}

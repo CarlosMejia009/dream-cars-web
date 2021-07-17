@@ -1,0 +1,27 @@
+/* VIDEO */
+
+#section-video {
+    padding-top: 90px;
+    text-align: center;
+}
+
+#section-video .contenedor {
+    position: relative;
+}
+
+#section-video .botones {
+    position: absolute;
+    top: 35%;
+    left: 46%;
+}
+
+#section-video i {
+    font-size: 125px;
+    color: #fff;
+}
+
+#section-video button {
+    border: 0;
+    background: none;
+    cursor: pointer;
+}

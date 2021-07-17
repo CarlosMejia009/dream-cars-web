@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@fortawesome/fontawesome-free/css/all.css";
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+
+html, body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: 'Anton', sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0 auto 20px;
+    font-family: Anton, sans-serif;
+    font-weight: 500;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    font-family: Rubik, sans-serif;
+  }

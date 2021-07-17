@@ -1,0 +1,49 @@
+/* FOOTER */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+footer {
+    display: block;
+    background: #161616;
+    color: #666;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+    height: 65px;
+}
+
+footer .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1050px;
+}
+
+
+footer .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1050px;
+}
+
+footer .copy {
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+
+footer .redes li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .redes i {
+    font-size: 27px;
+}

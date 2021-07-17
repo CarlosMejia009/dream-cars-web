@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Car 1",
+        "img": "/assets/cars/car2.jpg",
+        "desc": "Car 1"
+    },
+    {
+        "name": "Car 2",
+        "img": "/assets/cars/car3.jpg",
+        "desc": "Car 2"
+    },
+    {
+        "name": "Car 3",
+        "img": "/assets/cars/car4.jpg",
+        "desc": "Car 3"
+    },
+    {
+        "name": "Car 4",
+        "img": "/assets/cars/car5.jpg",
+        "desc": "Car 4"
+    },
+    {
+        "name": "Car 5",
+        "img": "/assets/cars/car6.jpg",
+        "desc": "Car 5"
+    },
+    {
+        "name": "Car 6",
+        "img": "/assets/cars/car7.jpg",
+        "desc": "Car 6"
+    },
+    {
+        "name": "Car 7",
+        "img": "/assets/cars/car8.jpg",
+        "desc": "Car 7"
+    }
+]

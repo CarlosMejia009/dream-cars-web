@@ -1,0 +1,72 @@
+[
+    {
+        "model": "Serie 3",
+        "photo": "/assets/cars/images-modify/bmw-serie3.jpg",
+        "year": "2007",
+        "brand": "BMW",
+        "km": "15.000",
+        "price": "$15.000",
+        "title": "Sporty driving pleasure",
+        "desc": "BMW INTELLIGENT PERSONAL ASSISTANT DEL BMW SERIE 3"
+    },
+    {
+        "model": "Serie 4",
+        "photo": "/assets/cars/images-modify/bmw-serie4.jpg",
+        "year": "2009",
+        "brand": "BMW",
+        "km": "18.000",
+        "price": "$25.000",
+        "title": "Based on series 3",
+        "desc": "With powerful engines and perfectly coordinated dynamic functions, they increase driving pleasure"
+    },
+    {
+        "model": "Serie 5",
+        "photo": "/assets/cars/images-modify/bmw-serie5.jpg",
+        "year": "2010",
+        "brand": "BMW",
+        "km": "22.000",
+        "price": "$30.000",
+        "title": "High-end passenger car in the E segment",
+        "desc": "High-end passenger car in the E segment"
+    },
+    {
+        "model": "Civic",
+        "photo": "/assets/cars/images-modify/honda-civic.jpg",
+        "year": "2015",
+        "brand": "HONDA",
+        "km": "27.000",
+        "price": "$18.000",
+        "title": "One of the best-rated sports compacts in the world",
+        "desc": "The Honda Civic is a compact vehicle, segment C"
+    },
+    {
+        "model": "Captur",
+        "photo": "/assets/cars/images-modify/renault-captur.jpg",
+        "year": "2016",
+        "brand": "RENAULT",
+        "price": "$28.000",
+        "km": "10.000",
+        "title": "The Renault Captur is an urban crossover",
+        "desc": "Debuts important aesthetic changes, as well as technological and mechanical advances."
+    },
+    {
+        "model": "Auris",
+        "photo": "/assets/cars/images-modify/toyota-auris.jpg",
+        "year": "2012",
+        "brand": "TOYOTA",
+        "km": "8.000",
+        "price": "$26.000",
+        "title": "The Toyota Auris is a C-segment passenger car",
+        "desc": "The Toyota Auris proposed a new approach to comfort, space and practicality"
+    },
+    {
+        "model": "Focus",
+        "photo": "/assets/cars/images-modify/ford-focus.jpg",
+        "year": "2008",
+        "brand": "FORD",
+        "km": "13.000",
+        "price": "$20.000",
+        "title": "The Ford Focus is the most powerful, responsive and fun",
+        "desc": "The New Ford Focus has a much more comfortable and spacious interior"
+    }
+]

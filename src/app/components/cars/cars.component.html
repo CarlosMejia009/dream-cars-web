@@ -1,0 +1,50 @@
+<!-- <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <figure class="display-3 d-flex justify-content-center">
+            <img src="../../../assets/github-img/GitHub-Mark-120px-plus.png">
+        </figure>
+        <strong class="d-flex justify-content-center">Github user search aplication</strong>
+    </div>
+</div> -->
+
+<ngb-carousel #carousel [interval]="1900" [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
+    <ng-template ngbSlide *ngFor="let data of images; index as i">
+        <div class="carousel-caption">
+            <h3>FIND A CAR OF YOUR DREAM</h3>
+        </div>
+        <div class="picsum-img-wrapper">
+            <img [src]="data.img" [alt]="data.desc">
+        </div>
+    </ng-template>
+</ngb-carousel>
+
+<hr>
+
+<section class="search">
+    <div class="car-search-form mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="car-search-form">
+                        <div class="tab-content">
+                            <div class="form-group has-search">
+                                <span class="fa fa-search form-control-feedback"></span>
+                                <input type="text" class="form-control" placeholder="Search a car">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<app-model-card-cards></app-model-card-cards>
+
+
+<app-car-section-about></app-car-section-about>
+
+<app-car-models-video></app-car-models-video>
+
+<app-model-cars-footer></app-model-cars-footer>

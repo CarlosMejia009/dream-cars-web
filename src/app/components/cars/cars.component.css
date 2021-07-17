@@ -1,0 +1,99 @@
+
+
+.img-round {
+  width: 250px;
+  height: 250px;
+}
+
+.picsum-img-wrapper img {
+  width: 100vw;
+  height: 80vh;
+  object-fit: cover;
+  object-position: center center;
+}
+
+
+.car-search-form-sec {
+  margin-top: -88px;
+}
+
+.car-search-form .tab-content {
+  padding: 42px 30px 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px -10px #000;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.section-header {
+  max-width: 550px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.fw-500 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.section-padding span {
+  display: inline-block;
+  margin: 15px 0 10px;
+}
+
+.section-padding span.line-grey {
+  background: #eee;
+  width: 50px;
+  height: 2px;
+}
+
+.section-padding span.line-orange {
+  background: #ff8500;
+  width: 50px;
+  height: 2px;
+}
+
+
+.right-section-car-box>.row>div {
+  border-right: 1px solid #eee;
+  margin-bottom: 50px;
+}
+
+.car-model-sec .right-section-car-box {
+  box-shadow: none;
+  padding: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-light-black {
+  color: #191919;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.p-relative {
+  position: relative;
+}
